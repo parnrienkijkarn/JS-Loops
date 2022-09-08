@@ -132,3 +132,55 @@ for (let find of orders) {
   }
 }
 console.log(jcbCard);
+
+
+ // ข้อ 1 แบบ for loop ปกติ 
+// let maxProductPrice = orders[0].productPrice;
+// let orderId = [];
+// for (let i = 0; i < orders.length; i++){
+//   if (maxProductPrice < orders[i].productPrice){
+//     maxProductPrice = orders[i].productPrice;
+//     orderId = orders[i].id;
+// }
+// }
+// console.log("Order id: " + orderId + ", Total Price: " + maxProductPrice )
+
+// NUMBER 2
+// let birdiePurchseAmount;
+// for(let i = 0; i<orders.length; i++){
+//   let customerName = orders[i].customerName;
+//   let productPrice = orders[i].productPrice;
+//   let productQuantity = orders[i].productQuantity;
+
+//   if(customerName === "Birdie Shepland"){
+//       birdiePurchseAmount = productPrice * productQuantity;
+//       break;
+//   }
+// }
+// console.log("Total Price is " + birdiePurchseAmount)
+
+// NUMBER 3
+// let jcbOrders = []
+
+// for(let i = 0; i<orders.length; i++ ){
+//   let creditCardType = orders[i].creditCardType;
+
+//   if(creditCardType == "jcb"){
+//       jcbOrders.push(orders[i])
+//   }
+// }
+// console.log(jcbOrders)
+
+//Number 4
+
+// let totalOrderPrices = 0
+
+// for(let i=0; i<orders.length;i++){
+
+//     let productPrice = orders[i].productPrice;
+//     let productQuantity = orders[i].productQuantity;
+
+//     totalOrderPrices =  totalOrderPrices + (productPrice * productQuantity)
+// }
+
+// console.log("Total : " + totalOrderPrices)
